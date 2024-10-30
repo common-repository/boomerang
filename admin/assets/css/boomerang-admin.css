@@ -1,0 +1,175 @@
+/* Variables */
+/* Custom Header */
+.boomerang-admin-header .boomerang-title {
+  margin-left: -20px;
+  background-color: #027AD0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boomerang-admin-header .boomerang-title .boomerang-logo {
+  width: 200px;
+}
+.boomerang-admin-header .boomerang-title p {
+  color: #fff;
+}
+.boomerang-admin-header .boomerang-notices-container {
+  margin: 0;
+}
+.boomerang-admin-header.drop {
+  padding-top: 40px;
+}
+
+/* CSF Settings Page */
+.csf .csf-field-image_select .csf--image {
+  margin: 20px;
+}
+@media screen and (min-width: 1654px) {
+  .csf .csf-field-image_select .csf--image:first-of-type {
+    margin-left: 0;
+  }
+}
+.csf .csf-field-image_select .csf--image figure {
+  border: 4px solid transparent;
+  margin-bottom: 15px;
+}
+.csf .csf-field-image_select .csf--image:hover figure {
+  border-color: #0073aa;
+}
+.csf .csf-field-image_select .csf--image.csf--active figure {
+  border-color: #0073aa;
+}
+.csf .csf-footer .csf-copyright {
+  display: none;
+}
+
+/** CSF Notification Accordions **/
+.notification-accordions .csf-accordion-item {
+  position: relative;
+  margin-bottom: 5px;
+}
+.notification-accordions .csf-accordion-item:last-child {
+  margin-bottom: 0;
+}
+.notification-accordions .csf-accordion-item h4 {
+  font-size: 1em;
+}
+.notification-accordions .csf-accordion-title {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  padding: 15px;
+  min-height: 0;
+  font-size: 100%;
+  user-select: none;
+  border: 1px solid #ccd0d4;
+  background-color: #fafafa;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.15s;
+}
+.notification-accordions .csf-accordion-title:active, .notification-accordions .csf-field-accordion .csf-accordion-title:hover, .notification-accordions .csf-field-accordion .csf-accordion-title:focus {
+  outline: none;
+  border-color: #999;
+}
+.notification-accordions .csf-accordion-title .csf--icon {
+  width: 20px;
+  text-align: center;
+  margin-right: 2px;
+}
+.notification-accordions .csf-accordion-icon {
+  width: 16px;
+  text-align: center;
+}
+.notification-accordions .csf-accordion-content {
+  display: none;
+  padding: 0;
+  border: 1px solid #ccd0d4;
+  border-top: none;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.notification-accordions .csf-accordion-content > .csf-field {
+  padding: 15px;
+}
+.notification-accordions .csf-accordion-open {
+  display: block;
+}
+.notification-accordions .boomerang-notification-placeholder-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5px;
+}
+.notification-accordions .boomerang-notification-placeholder-container span {
+  background-color: #ededed;
+  border-radius: 5px;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+/* Upsell */
+.upsell {
+  text-decoration: none;
+  display: block;
+  clear: both;
+  padding: 10px 0;
+  margin-right: 20px;
+}
+.upsell .banner {
+  height: 60px;
+  display: flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 48px;
+  flex: 1 0 0;
+  border: 1px solid #8c8c8c;
+  border-radius: 9px;
+  background: url("../images/upsell-waves.png");
+  margin: 10px auto;
+  box-shadow: 0px 46px 80px 0px rgba(0, 0, 0, 0.07);
+  background-size: cover;
+  background-position: 100% 13%;
+}
+.upsell .banner svg path {
+  fill: #027AD0;
+}
+.upsell .banner h2 {
+  font-size: 2em;
+}
+.upsell .banner p {
+  font-size: 18px;
+  color: #000;
+}
+.upsell .banner .website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-left: auto;
+}
+
+/** Data Import Page **/
+.boomerang_page_boomerang_data_import #accordion-container .accordion-item {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.boomerang_page_boomerang_data_import #accordion-container .accordion-item .accordion-header {
+  font-size: large;
+  font-weight: 500;
+}
+.boomerang_page_boomerang_data_import #accordion-container .accordion-item .accordion-body .controls {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.boomerang_page_boomerang_data_import #accordion-container .accordion-item .accordion-body .controls .import-result {
+  color: darkgreen;
+  font-size: large;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=boomerang-admin.css.map */
